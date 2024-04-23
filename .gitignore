@@ -2,3 +2,4 @@
 __pycache__ 
 venv/
 flask_venv/
+app.db
