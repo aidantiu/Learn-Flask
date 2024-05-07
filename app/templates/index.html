@@ -5,4 +5,10 @@
     {% for post in posts %}
     <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
     {% endfor %}
+
+    <!-- HELLO WORLD FLASH BUTTON -->
+    <form action="{{ url_for('hello')}}" method="get">
+        <button type="submit">Hello!</button>
+    </form>
+
 {% endblock %}
